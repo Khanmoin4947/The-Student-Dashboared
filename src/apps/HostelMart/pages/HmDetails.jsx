@@ -12,7 +12,7 @@ export default function HmDetails() {
   useEffect(() => {
     async function loadItem() {
       try {
-        const docRef = doc(db, "hostel_items", id);
+        const docRef = doc(db, "items", id);
         const docSnap = await getDoc(docRef);
         if (docSnap.exists()) {
           setItem({ id: docSnap.id, ...docSnap.data() });
