@@ -7,7 +7,7 @@ function PortalHome() {
   return (
     <div className="portal-container">
       <div className="portal-header">
-        <h1>Welcome to <span>Findit</span> Campus Hub</h1>
+        <h1>Welcome to <span>The Student Dashboard</span></h1>
         <p>Your one-stop destination for campus trading and finding lost items.</p>
       </div>
       
